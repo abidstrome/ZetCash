@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ZetCash - Login</title>
+   
+</head>
+
+<body>
+    
+    <table style="border:2px solid black; border-collapse: collapse;"  align="center"width="70%" >
+
+        <tr >
+
+            <td style="border:2px solid black; border-collapse: collapse;" align="right">
+
+                 <img align="left" src="../../assets/zetcash.png" alt="Logo"width="200" height="100">
+                    <br>
+                 <a href="publicHome.html">Home  </a>|
+                <a  href="login.html">Login</a>|
+                <a  href="registration.html">Registration</a>
+            </td>
+
+        </tr>
+
+        <tr>
+            
+            <td style="border:2px solid black; border-collapse: collapse;">
+                
+                
+                    <br><br><br><br><br>
+                    <fieldset style="width:45%; margin:  0px auto;"  >
+                        
+                        <legend align= "left"><b>LOGIN</b></legend>
+                        <!--<form action="../controller/loginCheck.php" method="post" onsubmit=" return userValidate()">-->
+                        User Name&nbsp;:&nbsp;<input type="text" name="username" id="userName" placeholder=" Enter User Name"><br><br>
+                        
+                        
+                        Password&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<input type="password" name="password" id="Password" placeholder=" Enter Password">
+                        <hr>
+                        <input type="checkbox" name="remember_me" value="1"> <b>Remember Me</b><br><br>
+                        <input type="submit" name="submit" value="Sign in" id="Submit" onclick="userValidate()" >
+                        <a id="signUp" href="registration.html"><input type="button" name="signup" value="SIGNUP" ></a>
+                
+                        
+                    </fieldset>
+                
+                    <br><br><br><br><br>
+                    <h4 align="center"  id="response"> </h4>
+                
+            </td>
+            
+        </tr>
+
+        <tr>
+
+            <td style="border:2px solid black; border-collapse: collapse;" colspan="2" align="center">
+                <p>Copyright &#169; 2021</p>
+            </td>
+
+        </tr>
+
+    </table>
+    <script type="text/javascript" src="../../scripts/script.js"></script>
+</body>
+</html>

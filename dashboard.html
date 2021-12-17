@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ZetCash - Admin Home</title>
+</head>
+<body>
+    
+    <table style="border:2px solid black; border-collapse: collapse;"  align="center"width="50%" >
+
+        <tr >
+
+            <td style="border:2px solid black; border-collapse: collapse;" colspan="2" align="right">
+
+                 <img align="left" src="logo.jpg" alt="Logo"width="150" height="60">
+                   <br> 
+                 <b>Logged in as </b>
+                <a  href="dashboard.php"><?php echo $name ?></a> |
+                <a  href="logout.php">Logout</a>
+            
+
+        </tr>
+
+        <tr >
+           
+            
+            <td colspan="1" width="32%" >
+              <b>Admin </b>
+              <hr align="left" width="90%">
+                <ul align="left" >
+                    
+                     
+                    <button type="button" style ="height:20px; width: 80px"><li><a  href="dashboard.php">Dashboard</a></li> </button>
+                    <br>
+                  
+                 <button type="button" style="height: 20px; width: 80px"><li><a  href="viewProfile.php">Profile</a></li></button>
+                    <br>
+
+                  <button type="button" style="height: 20px; width: 80px"><li><a  href="changePassword.php">Merchant</a></li></button>
+                    <br>
+
+                  <button type="button" style="height: 20px; width: 80px"><li><a  href="changePassword.php">User</a></li></button>
+                    <br>
+
+                  <!--<li><a  href="editProfile.php">Edit Profile</a></li>
+                  <li><a  href="profilePicture.php">Change Profile Picture</a></li>
+                    <li><a  href="changePassword.php">Change Password</a></li>
+                    <button type="button" style="height: 20px; width: 80px"></button>
+                  <li><a  href="changePassword.php">Change Password</a></li>-->
+                
+                    <button type="button" style="height: 20px; width: 80px"><li><a  href="changePassword.php">Officer</a></li></button>
+                    
+                    
+                  
+                </ul>
+              </td>
+            
+
+            
+                <td style="border:2px solid black; border-collapse: collapse;"  width="68%" height="250px"><h2><ul>Welcome <?php echo $name ?>  </ul></h2></td>
+                
+                
+            </tr>
+
+        <tr>
+
+            <td style="border:2px solid black; border-collapse: collapse;" colspan="2" align="center">
+                <p>Copyright &#169; 2021</p>
+            </td>
+
+        </tr>
+
+    </table>
+    
+</body>
+</html>

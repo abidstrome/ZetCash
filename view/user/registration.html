@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ZetCash - Registration</title>
+</head>
+
+
+<body>
+
+
+
+    <table style="border:2px solid black; border-collapse: collapse;" align="center" width="70%">
+
+        <tr>
+
+           
+            <td style="border:2px solid black; border-collapse: collapse;" align="right">
+
+                 <img align="left" src="../../assets/zetcash.png" alt="Logo"width="200" height="100">
+                    <br>
+                 <a href="publicHome.html">Home  </a>|
+                <a  href="login.html">Login</a>|
+                <a  href="registration.html">Registration</a>
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td style="border:2px solid black; border-collapse: collapse;">
+
+                
+                <br><br><br><br><br>
+                    <fieldset style="width:45%; margin:  0px auto;">
+                        <!--<form action="../controller/regCheck.php" method="post">-->
+                        <legend><b>REGISTRATION</b></legend>
+
+                        <br><br>
+
+                        <b>Name</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                        <input type="text" name="name" id="Name">
+                        <hr>
+                        
+                        <b>User Name</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                        <input type="text" name="username" id="userName">
+                        <hr>
+                        <b>Email</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                        <input type="text" name="email" id="Email">
+                        <button title="hint:Sample@example.com"><b>i</b></button>
+                        
+
+                        <hr>
+                        <b>Mobile Number</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                        <input type="text"  id="mobileNumber">
+                        <hr>
+                       <b>Password</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                       <input type="text" name="password" id="Password" >
+                        <hr>
+                        <b>Confirm Password</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                        <input type="text" name="cpassword" id="Cpassword" >
+                        <hr>
+
+
+
+                        <fieldset>
+
+                            <legend><b>Gender</b></legend>
+
+                            <input type="radio" name="gender" id="Gender" value="Male"> <b>Male</b>
+                            <input type="radio" name="gender" id="Gender" value="Female"> <b>Female</b>
+                            <input type="radio" name="gender" id="Gender" value="Other"> <b>Other</b>
+
+                        </fieldset >
+                       
+                        <hr>
+
+                        <fieldset >
+
+                            <legend><b>Date of Birth</b></legend>
+
+                            <input type="date" name="dob" id="Dob" min="1920-01-01" max="2005-12-31"><b> </b>
+
+
+                        </fieldset>
+                        <hr>
+
+                        <input type="submit" name="submit" value="Register" id="Submit" onclick="registration()">
+                        <a id="reset" href="registration.html"><input type="button" name="reset" value="Reset"></a>
+                    
+                    </fieldset>
+                     <br><br><br><br><br>
+
+               
+                     <h4  align="center" id="response"></h4>
+		
+                </div>
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td colspan="2" align="center">
+                <p>Copyright &#169; 2021</p>
+            </td>
+
+        </tr>
+
+    </table>
+
+
+<script type="text/javascript" src="../../scripts/script.js"></script>
+</body>
+
+</html>
